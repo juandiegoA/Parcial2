@@ -58,7 +58,7 @@ void imagen::Muestreo(){
 };
 int main()
 {
-    string ruta="../pruebas1/flags/por.jpg";
+    string ruta="../pruebas1/flags/jap.jpg";
     string rutaTXT="../pruebas1/archivo.txt";
     QImage im(ruta.c_str());
     imagen bandera(ruta,rutaTXT);
